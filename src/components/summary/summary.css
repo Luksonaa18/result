@@ -1,0 +1,110 @@
+.summary {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem;
+  gap: 1rem;
+}
+.reaction {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+  padding: 1rem;
+  border-radius: 13px;
+  justify-content: space-between;
+  background: linear-gradient(0deg, #fdd8d8, #fac9c9),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+}
+.summary-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.image-rn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.3rem;
+}
+.rtc {
+  color: rgba(255, 85, 85, 1);
+}
+.rtc-1 {
+  color: #ffb21e;
+}
+.rtc-2 {
+  color: hsla(166, 100%, 37%, 1);
+}
+.rtc-3 {
+  color: hsla(234, 85%, 45%, 1);
+}
+.par {
+  color: rgba(48, 59, 89, 1);
+}
+.memory {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+  padding: 1rem;
+  border-radius: 13px;
+  justify-content: space-between;
+  background: linear-gradient(0deg, #fff5e1, #fff8ea),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+}
+.visual {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+  padding: 1rem;
+  border-radius: 13px;
+  justify-content: space-between;
+  background: linear-gradient(0deg, #cacffd, #dbdffc),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+}
+.verbal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+  padding: 1rem;
+  border-radius: 13px;
+  justify-content: space-between;
+  background: linear-gradient(0deg, #eafdf9, #c2f7ea),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+}
+h3 {
+  font-family: Hanken Grotesk;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #303b59;
+}
+button {
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 18px;
+  background: hsla(223, 30%, 27%, 1);
+  height: 45px;
+  font-family: Hanken Grotesk;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  transition: 0.6s ease-in-out;
+}
+button:hover {
+  background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
+}
+.par-1{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+.par1{
+    color:gray;
+
+}
