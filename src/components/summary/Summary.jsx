@@ -26,7 +26,7 @@ const Summary = () => {
             <span className="rtc-1">Memory</span>
           </div>
           <div className="par-1">
-            <p className="par">80</p>
+            <p className="par">92</p>
             <p className="par1">/ 100</p>
           </div>
         </div>
@@ -36,7 +36,7 @@ const Summary = () => {
             <span className="rtc-2">Verbal</span>
           </div>
           <div className="par-1">
-            <p className="par">80</p>
+            <p className="par">61</p>
             <p className="par1">/ 100</p>
           </div>
         </div>
@@ -47,7 +47,7 @@ const Summary = () => {
           </div>
 
           <div className="par-1">
-            <p className="par">80</p>
+            <p className="par">73</p>
             <p className="par1">/ 100</p>
           </div>
         </div>
